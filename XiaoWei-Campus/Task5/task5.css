@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ccc;
+}
+
+a {
+	text-decoration: none;
+}
+
+.mainHeader {
+	background-color: #333;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.mainHeader img {
+	float: left;
+	width: 150px;
+}
+
+.mainHeader nav {
+	float: right;
+}
+
+.mainHeader nav ul li {
+	float: left;
+	list-style: none;
+	margin: 10px;
+}
+
+.mainHeader nav ul li a {
+	color: #ddd;
+}
+
+.mainHeader nav ul li a:hover {
+	color: #fff;
+}
+
+.mainSection {
+	margin: 10px;
+}
+
+.mainSection > article, .mainSection > section, .mainSection > aside {
+	background-color: #fff;
+	border: 1px solid #aaa;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+
+.mainSection img {
+	width: 50%;
+}
+
+.mainSection img:hover {
+	width: 52%;
+	transition: width 0.3s ease;
+}
+
+.mainSection table {
+	border-collapse:collapse;
+}
+
+.mainSection table th {
+	padding: 3px;
+	color: #fff;
+	background-color: #333;
+}
+
+.mainSection table td {
+	padding: 3px;
+}
+
+.mainSection table .tableFooter td {
+    font-weight: bold;
+	background-color: #ccc;
+}
+
+.articleHeader h1 {
+	font-size: 2em;
+}
+
+.articleHeader h2 {
+	font-size: 1.5em;
+	color: #aaa;
+}
+
+
+.mainSection aside {
+
+
+}
+
+
+.mainSection > aside > header > h1 {
+    border-left: 3px solid #ccc;
+    padding: 5px 0 5px 10px; 
+}
+
+.mainSection > aside .labels {
+    float: left;
+    width: 35%;
+    text-align: right;
+}
+
+.mainSection > aside  form {
+	margin-bottom: 10px;
+}
+
+.mainSection > aside .tips {
+	color: #aaa;
+	font-size: 0.5em;
+	margin-left: 35%;
+}
+
+#asideSubmit {
+	width: 100%;
+	background-color: #3355d0;
+	border-radius: 5px;
+	border-style: none;
+	padding: 10px;
+	color: #fff;
+	margin-top: 10px;
+}
+
+#asideSubmit:hover {
+	background-color: #3355ef;
+}
+
+body > footer {
+	color: #fff;
+	background-color: #333;
+	text-align: center;
+	padding: 5px 0 10px 0;
+}
+
+.author {
+	font-size: 0.8em;
+	color: #aaa;
+}
+
+.clearfloat:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0
+} 
+.clearfloat {
+	zoom: 1;
+}
+
+
