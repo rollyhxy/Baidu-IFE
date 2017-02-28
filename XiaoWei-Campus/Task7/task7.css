@@ -1,0 +1,575 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+body {
+	font-size: 16px;
+}
+
+body > .wrap {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+#indexHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 58px;
+	background-color: #fff;
+	padding: 0 40px;
+}
+
+#indexHeader .logo {
+	height: 31px;
+}
+
+#indexHeader .logo img {
+    height: 100%;
+    vertical-align: middle;
+}
+
+#indexHeader .logo span {
+	display: inline-block;
+	font-family: "SimHei Regular";
+	font-size: 1.3125rem;
+	vertical-align: middle;
+	color: #393a3a;
+}
+
+#indexHeader nav {
+	height: 100%;
+}
+
+#indexHeader nav ul {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+#indexHeader nav li {
+	display: inline-block;
+	font-family: "微软雅黑";
+	font-size: 0.875rem;
+	height: 100%;
+	padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+#indexHeader nav li:hover {
+	border-bottom: 2px solid #e74f4d;
+}
+
+#indexHeader nav li a:hover {
+    color: #e74f4d;
+}
+
+#indexHeader nav li a {
+	color: #787b83;
+}
+
+/*main开始*/
+#indexMain .banner {
+	background-image: url(./task_1_7_1_0000s_0008s_0005_图一.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+	height: 692px;
+}
+
+#indexMain .banner .word1, #indexMain .banner .word2 {
+	position: absolute;
+	font-family: "微软雅黑";
+	color: #fff;
+}
+
+#indexMain .banner .word1 {
+	font-size: 3.75rem;
+	top: 33.092%;
+	left: 117px;
+}
+
+#indexMain .banner .word2 {
+	font-size: 1.3125rem;
+	top: 312px;
+	left: 125px;
+}
+
+#indexMain .banner button {
+	position: absolute;
+	width: 332px;
+	height: 52px;
+	background-color: #e74f4d;
+	border: none;
+	font-size: 1.3125rem;
+	color: #fff;
+	top: 430px;
+	left: 125px;
+}
+
+#majorPoints {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+}
+
+#majorPoints .point {
+	width: 25%;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+
+#majorPoints .point p {
+	font-size: 0.875rem;
+	color: #767777;
+	padding: 0 80px;
+}
+
+#majorPoints span.divide {
+	width: 3px;
+	height: 54px;
+	background-color: #aaa;
+	margin-bottom: -100px;
+}
+
+#askSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 362px;
+    background-color: #ededec;
+    text-align: center;
+}
+
+#askSection img {
+	margin-bottom: -100px;
+}
+
+#askSection p {
+	color: #a1a1a1;
+	font-size: 3.349375rem;
+}
+
+#indexForm {
+	background-image: url(./task_1_7_1_0000s_0004s_0023_看地图.png);
+	background-repeat: no-repeat;
+	background-position: center center; 
+	height: 340px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#indexForm .word1, #indexForm .word2 {
+    color: #fff;
+}
+
+#indexForm div.words {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 80px;
+}
+
+#indexForm .word1 {
+	font-size: 21px;
+}
+
+#indexForm div.words .divide {
+	background-color: #fff;
+	height: 3px;
+	width: 40px;
+}
+
+#indexForm .word2 {
+	font-size: 12px;
+}
+
+#indexForm form {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    align-items: center;
+} 
+
+#indexForm form select, button {
+    width: 238px;
+    height: 36px;
+}
+
+#indexForm form select {
+	padding: 2px;
+	letter-spacing: 1px;
+	color: #787878;
+}
+
+#indexForm form select:focus {
+	border: 2px solid #bf4f49;
+}
+
+#indexForm form option:hover {
+	background-color: #bf4f49;
+}
+
+#indexForm form button {
+	background-color: #bf4f49;
+	border: none;
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 15px;
+}
+
+#indexIntro1 {
+	height: 566px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#indexIntro1 .photo {
+	width: 66.75%;
+	height: 100%;
+	background-image: url(./task_1_7_1_0000s_0003s_0012_图七.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#indexIntro1 .photo p, #indexIntro1 .photo time {
+	color: #fff;
+}
+
+#indexIntro1 .photo p.word1 {
+	font-size: 50px;
+}
+
+#indexIntro1 .photo p.word2 {
+	font-size: 158px;
+	line-height: 160px;
+}
+
+#indexIntro1 .photo p.word3 {
+	font-size: 22px;
+}
+
+#indexIntro1 .photo time.timeDate {
+	font-size: 22px;
+}
+
+#indexIntro1 .words {
+	width: 33.25%;
+	text-align: center;
+	padding: 50px;
+
+}
+
+#indexIntro1 .words h1 {
+	color: #323232;
+}
+
+#indexIntro1 .words p {
+	color: #b0b0b0;
+	font-size: 12px;
+	line-height: 2rem;
+} 
+
+#indexIntro1 .words button {
+	font-size: 12px;
+	width: 105px;
+	height: 34px;
+	background-color: #fff;
+	border: 2px solid #e74f4d;
+	color: #e74f4d;
+	margin-top: 40px;
+}
+
+#indexIntro2 {
+	height: 518px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#indexIntro2 div {
+	height: 100%;
+	width: 33.333%;
+}
+
+#indexIntro2 div.words1 {
+	background-color: #e74f4d;
+}
+
+#indexIntro2 div.words2 {
+	background-color: #fff;
+}
+
+#indexIntro2 div.photo {
+	background-image: url(./task_1_7_1_0000s_0002s_0010__图像_.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#indexIntro2 div.words1 {
+	font-size: 21px;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+} 
+
+#indexIntro2 div.words1 p {
+	line-height: 28px;
+}
+
+#indexIntro2 div.words1 div.divide {
+	height: 2px;
+	width: 50px;
+	background-color: #fff;
+	margin: 20px 0;
+}
+ 
+#indexIntro2 div.words1 button {
+	width: 168px;
+	height: 44px;
+	color: #fff;
+	background-color: transparent;
+	border: 2px solid #fff;
+}
+
+#indexIntro2 div.words2 {
+	font-size: 21px;
+	color: #323232;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+} 
+
+#indexIntro2 div.words2 p {
+	line-height: 28px;
+}
+
+#indexIntro2 div.words2 div.divide {
+	height: 2px;
+	width: 50px;
+	background-color: #fff;
+	margin: 20px 0;
+	background-color: #aaa;
+}
+ 
+#indexIntro2 div.words2 button {
+	width: 168px;
+	height: 44px;
+	color: #e74f4d;
+	background-color: transparent;
+	border: 2px solid #e74f4d;
+}
+
+#volunteerForm {
+	height: 750px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+ 
+#volunteerForm > .words {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+#volunteerForm > .words h1.word1 {
+	font-size: 21px;
+	color: #323232;
+}
+
+#volunteerForm > .words div.divide {
+	width: 50px;
+	height: 2px;
+	background-color: #e74f4d;
+	margin-bottom: 20px;
+}
+#volunteerForm > .words p.word2 {
+	font-size: 12px;
+	color: #aaa;
+	padding: 0 400px;
+}
+
+#wordsForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 85%;
+    height: 40%;
+    margin-top: -80px;
+}
+ 
+#wordsForm .words {
+	width: 290px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#wordsForm .words h1 {
+	font-size: 14px;
+	color: #323232;
+}
+
+#wordsForm .words p {
+	font-size: 12px;
+	color: #aaa;
+}
+
+#wordsForm form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 637px;
+}
+
+#wordsForm form div.group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#wordsForm form textarea {
+    height: 119px;
+    width: 100%;	
+    padding: 4px;
+}
+
+#wordsForm form div.group div input {
+	height: 40px;
+	width: 312px;
+	padding-left: 50px;
+	margin: 5px 0;
+}
+
+#wordsForm form div.group div.fourWords input {
+    padding-left: 73px;
+}
+
+#wordsForm form div.group div {
+    position: relative;
+}
+
+#wordsForm form div.group div label {
+	font-size: 12px;
+	color: #6c6868;
+	position: absolute;
+	top: 20px;
+	left: 15px;
+}
+
+#wordsForm form button {
+	width: 100%;
+	background-color: #e74f4d;
+	font-size: 14px;
+	color: #323232;	
+}
+
+#wordsForm form button, #wordsForm form div.group div input, #wordsForm form textarea {
+	background-color: #ededef;
+	border: none;
+}
+
+#indexContact {
+	height: 362px;
+	background-color: #32363f;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#indexContact .words {
+	color: #fff;
+	margin: 0 380px;
+}
+
+#indexContact .words h1 {
+	font-size: 21px;
+}
+
+#indexContact .words p {
+	font-size: 12px;
+}
+
+#indexContact .email {
+	height: 42px;
+	margin-top: 40px;
+}
+
+#indexContact .email input {
+	height: inherit;
+	border: none;
+	padding: 5px;
+	line-height: 42px;
+	width: 430px;
+}
+
+#indexContact .email button {
+	height: inherit;
+	background-color: #6f7278;
+	border: none;
+	width: 82px;
+	margin-left: -5px;
+	color: #fff;
+	letter-spacing: 5px;
+}
+
+#indexContact .logoGroups {
+	width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#indexFooter {
+	height: 56px;
+	background-color: #2f2f38;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    padding: 0 30px;
+	align-items: center;
+	
+}
+
+#indexFooter p {
+    color: #fff;
+    font-size: 14px;
+}
